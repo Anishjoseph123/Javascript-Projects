@@ -1,0 +1,230 @@
+.nlogo
+{
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 40px;
+    fill: red;
+}
+.banner
+{
+   font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 33px;
+color: white;
+width: 50%;
+height: 400px;
+padding: 10px;
+position: absolute;
+top: 200px;
+left: 500px;
+
+}
+#div5
+{
+    display: flex;
+}
+#div5
+{
+    
+    text-decoration: none;
+margin: 10px;
+}
+#btn
+{
+
+   color: white;
+    background-color: red;
+}
+#btn a
+{
+    color: white;
+    text-decoration: none;
+
+}
+#search1
+{
+    width: 300px;
+}
+
+/* home end */
+
+#watchsection
+{
+    background-color: black;
+    border-bottom: 10px solid gray;
+    border-top: 10px solid gray;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    color: white;
+}
+#watchsection article
+{
+    width: 85%;
+    /* border: 2px solid salmon; */
+    height: 80vh;
+    margin: auto;
+    display: flex; 
+}
+#watchsection article .content
+{
+    width: 50%;
+    height: 80vh;
+/* border: 2px solid red; */
+}
+
+#watchsection article .photo1
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 50%;
+    height: 80vh;
+/* border: 2px solid red; */
+}
+#watchsection article .photo1 figure img
+{
+    width: 70%;
+}
+.content
+{
+    width: 50%;
+   height: 50vh;
+  padding-top: 150px;
+padding-left: 10px;
+  text-align: center;
+}
+.photo1
+{
+    width: 100%;
+    height: 200vh;
+    margin: 50px;
+    padding: 50px;
+    z-index: 1;
+}
+#watchsection article .photo1 .video1
+{    
+position: absolute;
+     width: 42%;
+    margin-top: -389px;
+    margin-left: -130px;
+    margin-bottom: 78px;
+    padding: 176px;
+    margin-right: 45px;
+}
+.video
+{
+    width: 60%;
+    height: 100vh;
+    margin-right: 110px;
+    margin-top: 30px;
+}
+#con1
+{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    height: 55px;
+    margin-bottom: 8px;
+    line-height: 55px;
+    width: 547px;
+}
+#con2
+{
+    font-size: 26px;
+    font-weight :400;
+    height: 99px;
+    margin-bottom :8px;
+    margin-top:20px;
+    text-size-adjust: 100%;
+}
+.our-story-card-animation-text{
+    border: 2px solid;background: #000;
+color: #fff;
+text-align: left;
+position: relative;
+width: 20%;
+padding: 0;
+bottom: 90px;
+left: 185px;
+}
+#content{
+    display: none;
+}
+ section:hover #content{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}
+section .columns ul li a{
+    background-color: #000;
+    color: #ccc;
+    display: flex;
+    text-decoration: none;
+}
+.faq h1{
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    font-size:xx-large;
+    padding: 80px;
+}
+#p{
+    color:#fff;
+    margin-top: 60px;
+    background-color: #111;
+    float: right;
+    width: 50%;
+    padding: 100px;
+}
+h2 #b1{
+    height: 20vh;
+    padding: 15px;
+    background-color: #000;
+    color: #ccc;
+    width: 900px;
+}
+#chi{
+    float:right;
+    padding: 20px;
+}
+.our-story-card-video{
+    bottom: 215px;
+    padding: 14px;
+    position: relative;
+    width: 27%;
+    right: 555px;
+    height: 48vh;
+}
+#im1{
+    position: absolute;
+}
+#content1:hover{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}
+#content2:hover{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}
+#content3:hover{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}
+#content4:hover{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}
+#content5:hover{
+    display: block;
+    background-color: #000;
+    color: #ccc;
+    text-indent: 3px;
+}

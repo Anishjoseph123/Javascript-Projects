@@ -1,0 +1,92 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.section1
+{
+    width: 100%;
+    height: 70px;  
+ position: fixed;
+
+
+}
+.bimg1
+{
+    background:linear-gradient(bottom, #0b0b08, #31302d, #595652, #847f7b, #b3aaa7, #b4aaa9, #b5aaab, #b4aaae, #867f85, #5a575d, #313237, #0b0f14);
+    background-image: url(./netflix.jpg);
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .article1
+    {
+
+display: flex;
+        width: 90%;
+        height: 70px;
+        }
+
+    #div1
+    {
+        width: 50%;
+        /* height: 70px; */
+    color: red;
+        
+    }
+    
+   
+#div2
+{
+    
+    padding-top: 20px;
+    
+    height: 40px;
+    display: flex;
+
+    align-items: center; 
+    justify-content: center; 
+}
+#select1
+{
+    background-color: black;
+    color: beige;
+}
+#div3
+{
+     padding-left: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+#div3 button a
+{
+    text-decoration: none;
+    color: beige;
+    background-color: red;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border: 10px;
+}
+.article1 #div2
+{
+    padding-left: 400px;
+}
+.story1
+{
+    color: white;
+}
+.story2
+{
+    color: white;
+}
+.columns ul li a {
+    display: flex;
+}
